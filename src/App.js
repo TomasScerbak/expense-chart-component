@@ -2,6 +2,7 @@ import "./App.css";
 
 import Main from "./components/Main";
 import ExpenseHeader from "./components/ExpenseHeader";
+import ExpenseBody from "./components/ExpenseBody";
 import Attribution from "./components/Attribution";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Main>
         <ExpenseHeader />
+        <ExpenseBody />
       </Main>
       <Attribution />
     </div>
