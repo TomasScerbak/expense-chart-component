@@ -13,17 +13,14 @@
   color: white;
 }
 
-.expense__balance:has(p) {
+.balance {
   font-size: 1.5rem;
+  padding-bottom: 0.4rem;
 }
 
-.expense_balance:has(h1) {
+.cash {
   font-size: 2.4rem;
   font-weight: 700;
-}
-
-.logo {
-  position: relative;
 }
 
 /* Media queries */
@@ -38,10 +35,10 @@
   .expense-header {
     width: 54rem;
   }
-  .expense__balance:has(p) {
+  .balance {
     font-size: 1.8rem;
   }
-  .expense_balance:has(h1) {
+  .cash {
     font-size: 3.2rem;
   }
 }
