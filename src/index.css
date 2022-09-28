@@ -15,20 +15,22 @@ html {
   --ff-dm: "DM Sans", sans-serif;
 
   /* Primary colors */
-  -soft-red: hsl(10, 79%, 65%);
-  -cyan: hsl(186, 34%, 60%);
+  --soft-red: hsl(10, 79%, 65%);
+  --cyan: hsl(186, 34%, 60%);
 
   /* Neutral colors */
-  -dark-brown: hsl(25, 47%, 15%);
-  -medium-brown: hsl(28, 10%, 53%);
-  -cream: hsl(27, 66%, 92%);
-  -very-pale-orange: hsl(33, 100%, 98%);
+  --dark-brown: hsl(25, 47%, 15%);
+  --medium-brown: hsl(28, 10%, 53%);
+  --cream: hsl(27, 66%, 92%);
+  --very-pale-orange: hsl(33, 100%, 98%);
 }
 
 body {
   font-family: var(--ff-dm);
   font-size: 1.8rem;
   height: 100vh;
+  margin: 6.7rem 1.6rem 0;
+  background-color: var(--cream);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
