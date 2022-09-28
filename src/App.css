@@ -1,0 +1,9 @@
+@media screen and (min-width: 375px) {
+  .App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
