@@ -35,7 +35,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Heading and paragraph */
 h1,
+h2,
 p {
   margin: 0;
 }
