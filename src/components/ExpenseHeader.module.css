@@ -1,0 +1,47 @@
+.expense-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--soft-red);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.expense__balance {
+  color: white;
+}
+
+.expense__balance:has(p) {
+  font-size: 1.5rem;
+}
+
+.expense_balance:has(h1) {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.logo {
+  position: relative;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 400px) {
+  .expense-header {
+    width: 34.4rem;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .expense-header {
+    width: 54rem;
+  }
+  .expense__balance:has(p) {
+    font-size: 1.8rem;
+  }
+  .expense_balance:has(h1) {
+    font-size: 3.2rem;
+  }
+}
