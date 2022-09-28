@@ -35,6 +35,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1,
+p {
+  margin: 0;
+}
+
 /* Links */
 a {
   text-decoration: none;
