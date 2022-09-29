@@ -1,0 +1,26 @@
+.chart-bar {
+  width: 3.3rem;
+  height: 15rem;
+  background-color: var(--soft-red);
+  border-radius: 3px;
+  margin: 0 2rem 1.1rem;
+  cursor: pointer;
+}
+
+.day {
+  font-size: 1.2rem;
+  color: var(--medium-brown);
+  margin: 0 2.4rem;
+}
+
+/* Media Quaries */
+@media screen and (min-width: 700px) {
+  .chart-bar {
+    width: 5.3rem;
+  }
+
+  .day {
+    font-size: 1.5rem;
+    margin: 0 3.1rem;
+  }
+}

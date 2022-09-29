@@ -1,5 +1,6 @@
 import React from "react";
 
+import ChartBar from "./ChartBar";
 import classes from "./ExpenseBody.module.css";
 
 const ExpenseBody = () => {
@@ -7,10 +8,7 @@ const ExpenseBody = () => {
     <section>
       <div className={classes.card}>
         <h1 className={classes["card__heading"]}>Spending-Last 7 days</h1>
-        <div className={classes["expense__day"]}>
-          <div className={classes["chart-bar"]}></div>
-          <div className={classes.day}>mon</div>
-        </div>
+        <ChartBar />
         <div className={classes.line}></div>
         <div className={classes["card__footer"]}>
           <div>
