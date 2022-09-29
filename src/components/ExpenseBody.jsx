@@ -8,7 +8,15 @@ const ExpenseBody = () => {
     <section>
       <div className={classes.card}>
         <h1 className={classes["card__heading"]}>Spending-Last 7 days</h1>
-        <ChartBar />
+        <div className={classes.chart}>
+          <ChartBar />
+          <ChartBar />
+          <ChartBar />
+          <ChartBar />
+          <ChartBar />
+          <ChartBar />
+          <ChartBar />
+        </div>
         <div className={classes.line}></div>
         <div className={classes["card__footer"]}>
           <div>
