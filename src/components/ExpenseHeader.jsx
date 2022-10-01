@@ -13,7 +13,7 @@ const ExpenseHeader = () => {
     <section>
       <div className={classes["expense-header"]}>
         <div className={classes["expense__balance"]}>
-          <p className={classes.balance}>My balance</p>
+          <p className={classes.balance}>My balance this week</p>
           <h1 className={classes.cash}>${totalBalance}</h1>
         </div>
         <div>
