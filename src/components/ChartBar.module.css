@@ -15,6 +15,10 @@
   cursor: pointer;
 }
 
+.chart-bar:hover {
+  background-color: #ff9b86;
+}
+
 .day {
   font-size: 1.2rem;
   color: var(--medium-brown);
