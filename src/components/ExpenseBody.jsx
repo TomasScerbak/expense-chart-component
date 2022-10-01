@@ -5,7 +5,7 @@ import classes from "./ExpenseBody.module.css";
 
 import expenseData from "../data.json";
 
-const ExpenseBody = (props) => {
+const ExpenseBody = () => {
   return (
     <section>
       <div className={classes.card}>
