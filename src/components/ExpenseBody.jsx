@@ -1,5 +1,3 @@
-import React from "react";
-
 import ChartBar from "./ChartBar";
 import classes from "./ExpenseBody.module.css";
 

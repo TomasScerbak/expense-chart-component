@@ -1,5 +1,3 @@
-import React from "react";
-
 import classes from "./ChartValue.module.css";
 
 const ChartValue = (props) => {
