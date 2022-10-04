@@ -12,9 +12,7 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/TomasScerbak/expense-chart-component.git)
+- Live Site URL: [Add live site URL here](https://statuesque-souffle-8c86fe.netlify.app)
 
 ## My process
 
