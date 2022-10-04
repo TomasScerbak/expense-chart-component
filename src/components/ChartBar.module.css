@@ -9,11 +9,10 @@
 
 .chart-bar {
   width: 3rem;
-  height: 15rem;
-  background-color: var(--soft-red);
   border-radius: 3px;
   margin: 0 0.1rem 1.1rem;
   cursor: pointer;
+  background-color: var(--soft-red);
 }
 
 .chart-bar:hover {

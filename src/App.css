@@ -7,3 +7,11 @@
     align-items: center;
   }
 }
+
+.blue {
+  background-color: var(--cyan);
+}
+
+.orange {
+  background-color: var(--soft-red);
+}

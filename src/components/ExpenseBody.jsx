@@ -3,7 +3,10 @@ import classes from "./ExpenseBody.module.css";
 
 import expenseData from "../data.json";
 
-const ExpenseBody = () => {
+const ExpenseBody = (props) => {
+  const expenseValues = expenseData.map((value) => value.amount);
+  let maxValue = Math.max(...expenseValues);
+
   return (
     <section>
       <div className={classes.card}>
@@ -12,6 +15,7 @@ const ExpenseBody = () => {
           {expenseData.map((expense) => {
             return (
               <ChartBar
+                className={expense.amount === maxValue ? "blue" : "orange"}
                 amount={expense.amount}
                 day={expense.day}
                 key={expense.day}

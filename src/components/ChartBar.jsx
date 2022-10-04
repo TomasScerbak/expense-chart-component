@@ -17,8 +17,10 @@ const ChartBar = (props) => {
       <div
         onMouseEnter={isVisibleHandler}
         onMouseLeave={isVisibleHandler}
-        style={{ height: `${props.amount}px` }}
-        className={classes["chart-bar"]}
+        style={{
+          height: `${props.amount}px`,
+        }}
+        className={`${classes["chart-bar"]} ${props.className}`}
       ></div>
       <div className={classes.day}>{props.day}</div>
     </div>
